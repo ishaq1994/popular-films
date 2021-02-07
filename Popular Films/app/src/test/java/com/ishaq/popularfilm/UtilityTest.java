@@ -1,5 +1,7 @@
 package com.ishaq.popularfilm;
 
+import com.ishaq.popularfilm.utils.Utility;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -9,9 +11,12 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest {
+public class UtilityTest {
+
     @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+    public void formatDateTest(){
+
+        String formatDate= Utility.formatDate("2020-11-19");
+        assertEquals("19-11-2020",formatDate);
     }
 }
