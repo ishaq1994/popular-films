@@ -13,10 +13,8 @@ jobs:
           java-version: 1.8
       - name: Print contents in current directory
         run: ls -la
-      - name: Unit tests
-        run: Popular Films/gradlew testDebugUnitTest
       - name: Upload Reports
         uses: actions/upload-artifact@v1
         with:
          name: reports
-         path: app/build/reports
+         path: Popular Films/app/build/reports
