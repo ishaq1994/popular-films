@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Popular Films</string>
-    <string name="no_movies_found">No Movies found. Please visit again .</string>
-    <string name="movie_poster">Movie Poster</string>
-    <string name="movie_name">movie name</string>
-    <string name="_8_4">8.5</string>
-</resources>
